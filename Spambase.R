@@ -166,6 +166,7 @@ minimum <- min(c(
 ))
 
 #  We show the graphs
+png("thresholds.png")
 par(xpd = TRUE)
 
 plot(
@@ -228,7 +229,7 @@ legend(
   col = c("black", "blue", "red", "brown", "green"),
   pch = 19
 )
-
+dev.off()
 
 print(
   "Si quieres maximizar el número de mensajes correctamente indentificados como spam, el mejor o mejores valor para el umbral es:"
