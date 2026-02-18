@@ -1,3 +1,5 @@
+# Naive Bayes
+
 Empecé el programa importando los datos y poniendo los nombres a las distintas características. Dividí los datos en la matriz de entrenamiento y la de pruebas.
 
 Creé la matriz de frecuencias relativas. Esta matriz contendrá el número de correos con la característica y que son Spam partido por el número de Spam. También lo mismo para Ham. Esto se calcula con la matriz de entrenamiento.
